@@ -1,8 +1,8 @@
-# 👨‍💻 AI Tech Interview Prep
+# AI Tech Interview Prep
 
 Este es un proyecto de construido para simular entrevistas técnicas en tiempo real utilizando Inteligencia Artificial.
 
-## 🚀 Sobre el proyecto
+## Sobre el proyecto
 Como estudiante de Ingeniería Informática especializado en Computación, he desarrollado esta herramienta para ayudar a perfiles junior a preparar entrevistas técnicas. La aplicación permite elegir cualquier lenguaje o tecnología y genera preguntas a medida (abiertas o tipo test) evaluando las respuestas mediante Modelos de Lenguaje Grande (LLMs).
 
 🔗 **[Probar la aplicación en vivo aquí](https://tech-interview-prep-ai-9pnpo9rj29rernxwqyreew.streamlit.app/)**
