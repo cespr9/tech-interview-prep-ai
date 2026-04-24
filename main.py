@@ -9,8 +9,8 @@ client = Groq(api_key=api_key)
 
 
 st.set_page_config(page_title="AI Interview Prep", page_icon="👨‍💻")
-st.title("👨‍💻 Entrevistador Técnico con IA")
-st.write("Configura tu sesión de estudio para el foro de empleo.")
+st.title("Entrevistador Técnico con IA")
+st.write("Configura a tu entrevistador")
 
 st.subheader("Configuración")
 col1, col2 = st.columns(2)
