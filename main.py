@@ -32,7 +32,7 @@ if st.button("Generar Pregunta", use_container_width=True):
             if tipo_pregunta == "Abiertas":
                 prompt = prompt = f"""Actúa como un reclutador técnico senior. Hazme una única pregunta de entrevista abierta para un perfil junior de {tecnologia}. Debes responder ESTRICTAMENTE con este formato: [Tu pregunta aquí] --CORRECTA-- [La respuesta correcta explicada aquí]. Si no vas a generar una respuesta, cambia de pregunta, pero la única ejecución correcta es la anteriormente descrita."""
             else:
-                prompt = f"Actúa como un reclutador técnico senior. Hazme una única pregunta de tipo test (opción múltiple con 4 opciones: A, B, C, D) para un perfil junior de {tecnologia}. Cada opción será una línea diferente. Despues de las 4 opciones añade OBLIGATORIAMENTE --CORRECTA-- seguido de la respuesta correcta. No me des introducción ni nada, sólamente pregunta y respuesta con ese formato"
+                prompt = f"Actúa como un reclutador técnico senior. Hazme una única pregunta de tipo test (opción múltiple con 4 opciones: A, B, C, D) para un perfil junior de {tecnologia}. Deja un doble salto de línea (espacio en blanco) entre cada una de las opciones. Cada opción será una línea diferente. Despues de las 4 opciones añade OBLIGATORIAMENTE --CORRECTA-- seguido de la respuesta correcta. No me des introducción ni nada, sólamente pregunta y respuesta con ese formato"
 
             respuesta = client.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
